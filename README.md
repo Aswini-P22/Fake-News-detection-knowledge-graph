@@ -143,7 +143,7 @@ fake-news-detection-knowledge-graph/
 ```bash
 streamlit run app/streamlit_app.py
 
-
+```
 
 ⚠️ Dataset Note
 
