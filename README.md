@@ -1,6 +1,8 @@
-# 📰 Fake News Detection with Knowledge Graph & Community Analysis
+# 📰 Fake News Detection with Knowledge Graphs
 
-An **end-to-end AI system** for detecting fake news using **machine learning, NLP, and knowledge graph analysis**, enhanced with **entity extraction, relationship mining, community detection, and centrality analysis**, and deployed via an **interactive Streamlit web application**.
+An **end-to-end Fake News Detection system** that combines  
+**Machine Learning + NLP + Knowledge Graphs + Graph Theory**,  
+with an interactive **Streamlit UI** for explainable predictions.
 
 ---
 
@@ -33,25 +35,27 @@ This project goes beyond simple classification by:
 
 ## 🏗️ System Architecture
 
+```text
 Raw News Data
-        ↓
+   ↓
 Data Cleaning & Preprocessing
-        ↓
+   ↓
 TF-IDF Feature Extraction
-        ↓
+   ↓
 Model Training & Comparison
-        ↓
+   ↓
 Fake News Prediction
-        ↓
+   ↓
 Named Entity Recognition (NER)
-        ↓
+   ↓
 Relation Extraction
-        ↓
+   ↓
 Knowledge Graph Construction
-        ↓
+   ↓
 Community & Centrality Analysis
-        ↓
+   ↓
 Streamlit Interactive UI
+```
 
 ---
 
@@ -76,6 +80,7 @@ Streamlit Interactive UI
 
 ## 📂 Project Structure
 
+```text
 fake-news-detection-knowledge-graph/
 │
 ├── app/
@@ -102,7 +107,7 @@ fake-news-detection-knowledge-graph/
 ├── .gitignore
 └── README.md
 
-
+```
 ---
 
 ## 📊 Model Performance (Best Model)
