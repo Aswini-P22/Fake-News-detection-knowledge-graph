@@ -34,23 +34,24 @@ This project goes beyond simple classification by:
 ## 🏗️ System Architecture
 
 Raw News Data
-      ↓
+        ↓
 Data Cleaning & Preprocessing
-      ↓
+        ↓
 TF-IDF Feature Extraction
-      ↓
+        ↓
 Model Training & Comparison
-      ↓
+        ↓
 Fake News Prediction
-      ↓
-NER & Relation Extraction
-      ↓
+        ↓
+Named Entity Recognition (NER)
+        ↓
+Relation Extraction
+        ↓
 Knowledge Graph Construction
-      ↓
+        ↓
 Community & Centrality Analysis
-      ↓
+        ↓
 Streamlit Interactive UI
-
 
 ---
 
@@ -78,11 +79,11 @@ Streamlit Interactive UI
 fake-news-detection-knowledge-graph/
 │
 ├── app/
-│   └── streamlit_app.py          # Streamlit UI
+│   └── streamlit_app.py              # Streamlit UI
 │
 ├── src/
-│   ├── train_model.py            # Model training & evaluation
-│   └── utils.py                  # NLP utilities (NER, relations)
+│   ├── train_model.py                # Model training & evaluation
+│   └── utils.py                      # NLP utilities (NER, relations)
 │
 ├── notebooks/
 │   ├── 1_data_exploration.ipynb
@@ -91,15 +92,15 @@ fake-news-detection-knowledge-graph/
 │   └── 4_cross_domain_linking.ipynb
 │
 ├── data/
-│   ├── raw_data/                 # Original datasets
-│   └── preprocessed_data/        # (Ignored in Git due to size)
+│   ├── raw_data/                     # Original datasets
+│   └── preprocessed_data/            # Ignored in Git due to size
 │
 ├── outputs/
 │   └── cross_domain_links.csv
 │
-├── README.md
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── README.md
 
 
 ---
@@ -145,7 +146,7 @@ streamlit run app/streamlit_app.py
 
 ```
 
-⚠️ Dataset Note
+### ⚠️ Dataset Note
 
 Due to GitHub file size limitations, the preprocessed dataset
 cleaned_fakenews.csv is not included in this repository.
@@ -159,7 +160,7 @@ src/utils.py
 This ensures full reproducibility of the project.
 
 
-🎯 Key Outcomes
+### 🎯 Key Outcomes
 
 Built an explainable AI system, not just a black-box classifier
 
@@ -169,7 +170,7 @@ Followed industry-grade project structure
 
 Designed a scalable and interpretable fake news detection pipeline
 
-🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 Transformer-based models (BERT, RoBERTa)
 
@@ -181,11 +182,12 @@ Multilingual fake news detection
 
 Cloud deployment (AWS / Hugging Face Spaces)
 
-👩‍💻 Author
+### 👩‍💻 Author
 
 Aswini P
 Artificial Intelligence & Data Science
 
 🔗 GitHub: https://github.com/Aswini-P22
+🔗 LinkedIn: https://www.linkedin.com/in/aswini-purushothaman-2206p2006
 
 🔗 LinkedIn: https://www.linkedin.com/in/aswini-purushothaman-2206p2006
