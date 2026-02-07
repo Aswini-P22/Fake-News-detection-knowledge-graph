@@ -175,6 +175,29 @@ Followed industry-grade project structure
 
 Designed a scalable and interpretable fake news detection pipeline
 
+---
+
+## ⚙️ Model Optimization & Hyperparameter Tuning
+
+During model development, **controlled hyperparameter tuning** was performed to improve classification performance and stability.
+
+### Feature Engineering
+- TF-IDF vectorization was applied to transform raw news text into numerical features.
+- Important parameters such as vocabulary size and token filtering were adjusted to reduce noise and improve representation.
+
+### Model Training & Optimization
+- Multiple machine learning models were trained and compared.
+- Logistic Regression was selected as the final model based on performance and interpretability.
+- Hyperparameters such as regularization strength and solver configuration were tuned to prevent overfitting and ensure generalization.
+
+### Model Selection Strategy
+- Models were evaluated using standard classification metrics.
+- The final configuration was chosen based on a balance between accuracy, robustness, and explainability.
+
+This approach ensured the model was **optimized beyond default settings** while remaining interpretable for downstream analysis.
+
+---
+
 ### 🔮 Future Enhancements
 
 Transformer-based models (BERT, RoBERTa)
@@ -190,9 +213,9 @@ Cloud deployment (AWS / Hugging Face Spaces)
 ### 👩‍💻 Author
 
 Aswini P
+
 Artificial Intelligence & Data Science
 
 🔗 GitHub: https://github.com/Aswini-P22
-🔗 LinkedIn: https://www.linkedin.com/in/aswini-purushothaman-2206p2006
 
 🔗 LinkedIn: https://www.linkedin.com/in/aswini-purushothaman-2206p2006
