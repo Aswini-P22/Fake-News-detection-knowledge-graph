@@ -187,7 +187,7 @@ During model development, **controlled hyperparameter tuning** was performed to 
 
 ### Model Training & Optimization
 - Multiple machine learning models were trained and compared.
-- Logistic Regression was selected as the final model based on performance and interpretability.
+- Random Forest was selected as the final model based on performance and interpretability.
 - Hyperparameters such as regularization strength and solver configuration were tuned to prevent overfitting and ensure generalization.
 
 ### Model Selection Strategy
